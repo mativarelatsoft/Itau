@@ -49,8 +49,8 @@ class LoginView extends React.Component<any, LoginViewState> {
                         <Login
                             performLogin={this.loginUser}
                             userAuthorized={this.redirectLogin}
-                            userLabel="Usuario"
-                            passwordLabel="Contraseña" />
+                            userLabel="User"
+                            passwordLabel="Password" />
                         {/* </div> */}
                     </Grid.Row>
                     <Grid.Row>
